@@ -2162,4 +2162,144 @@ strong {
   width: 10.3%;
 }
 
+.chat-notice__user {
+  display: flex;
+  align-items: center;
+}
+
+.chat {
+  height: 100vh;
+  background: rgba(46, 164, 255, 0.2235294118);
+}
+.chat__form {
+  height: 98%;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.chat__input {
+  width: 50%;
+  padding: 15px 55px 15px 25px;
+  border: 1px solid #ccc;
+  border-radius: 99px;
+  color: #4e5358;
+  font-size: 1.8rem;
+}
+.chat__input::placeholder {
+  color: #4e5358;
+  font-size: 1.8rem;
+}
+.chat__btn {
+  position: absolute;
+  right: 295px;
+  bottom: 7px;
+  padding: 12px;
+  border-radius: 50%;
+}
+.chat__icon {
+  width: 10px;
+  height: 10px;
+}
+.chat__icon path {
+  fill: #fff;
+}
+
+.chat-notice {
+  width: 100%;
+  height: 695px;
+  padding: 20px 12px;
+  background: #4157ff;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.chat-notice__user {
+  gap: 12px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #ccc;
+}
+.chat-notice__avatar {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.chat-notice__name {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.21;
+}
+.chat-notice__email {
+  color: #fff;
+  line-height: 1.71;
+}
+.chat-notice__bottom {
+  margin-top: 38px;
+}
+.chat-notice__mess {
+  display: block;
+  padding: 12px;
+  border-radius: 12px;
+  background: #fff;
+}
+.chat-notice__mess + .chat-notice__mess {
+  margin-top: 22px;
+}
+.chat-notice__title {
+  color: #191b1d;
+  font-size: 1.8rem;
+  line-height: 1.67;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.chat-notice__desc {
+  margin-top: 5px;
+  color: #4e5358;
+  line-height: 1.75;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.fitnes {
+  margin: 100px 0 220px;
+}
+.fitnes__title {
+  text-align: center;
+}
+.fitnes__desc {
+  margin-top: 22px;
+}
+.fitnes__img {
+  margin-top: 38px;
+  width: 100%;
+}
+.fitnes__heading {
+  margin-top: 22px;
+  color: #151e66;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.75;
+}
+.fitnes__desc-title {
+  margin-top: 32px;
+  color: #555c96;
+  font-size: 1.8rem;
+  line-height: 1.25;
+}
+.fitnes__cap-img {
+  margin-top: 5px;
+  text-align: center;
+  color: #151e66;
+  font-size: 1.4rem;
+  font-weight: 500;
+  font-style: italic;
+}
+
 /*# sourceMappingURL=main.css.map */
