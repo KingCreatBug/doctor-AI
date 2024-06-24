@@ -24,6 +24,11 @@
         background-image: url(../../assets/img/hero/bg.jpg);
         background-size: cover;
 
+        &--reset {
+            background-image: none;
+            background: #f6f6f6;
+        }
+
         &-logo,
         &-next {
             position: absolute;
@@ -49,6 +54,10 @@
 
             @include abstracts.screen(md) {
                 font-size: 1.5rem;
+            }
+
+            &--gray {
+                color: #1a162e;
             }
         }
 
