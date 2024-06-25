@@ -2450,7 +2450,7 @@ strong {
 
 .chat-block {
   width: 100%;
-  display: none;
+  display: flex;
   align-items: center;
   flex-direction: column;
   margin-top: 36px;
@@ -2481,7 +2481,7 @@ strong {
 
 .chat-container {
   overflow: auto;
-  display: flex;
+  display: none;
   align-items: center;
   flex-direction: column;
 }
@@ -2513,9 +2513,6 @@ strong {
   border-radius: 20px;
   background: #ccc;
   overflow: auto;
-}
-.chat-box__message {
-  display: none;
 }
 .chat-box__wrap {
   position: absolute;
@@ -2636,6 +2633,25 @@ strong {
   border-radius: 5px;
   color: rgba(65, 87, 255, 0.6509803922);
   background: #fff;
+}
+
+.chat-message {
+  position: relative;
+}
+.chat-message__text {
+  position: absolute;
+  bottom: -420px;
+  right: 150px;
+  padding: 5px 15px;
+  border-radius: 99px;
+  background: rgba(90, 106, 230, 0.6509803922);
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #fff;
+}
+.chat-message__text--AI {
+  bottom: -350px;
+  right: 765px;
 }
 
 .auth {
